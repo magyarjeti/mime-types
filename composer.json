@@ -1,0 +1,21 @@
+{
+    "name": "magyarjeti/mime-types",
+    "description": "A converter between mime types and file extensions.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kovago Zoltan",
+            "email": "kovagoz@444.hu"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Magyarjeti\\MimeTypes\\": "src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.6"
+    }
+}
